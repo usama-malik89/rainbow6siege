@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: rainbow;
+    src: url(../assets/Rainbow.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(../assets/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding: 5vh;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 11vh;
+}
+
+.title {
+    font-family: rainbow;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 5vh;
+}
+
+.map_img img {
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    max-width: 60vw;
+}
+
+.button1 {
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.button1 p {
+    padding: 5vh 10vh
+}
