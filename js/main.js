@@ -36,8 +36,6 @@ $(document).ready(function(){
         x = maps[random_num(maps)]
         nx = x.replace('_', ' ');
         $("#mapName").text(nx);
-        //$("#img").html("<img id='img' src='assets/'" + x + ".jpg>")
         $("#img").attr('src', 'assets/' + x + '.jpg');
-        console.log(x)
     });
 });
