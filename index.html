@@ -5,16 +5,18 @@
         <title>R6S Random Map</title>
         <link rel="stylesheet" href="css/styles.css">
         <script src="lib/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <div class="background">
             <img src="assets/r6s_logo.png" class="logo">
             <p class="title">Random Map & Mode Picker</p>
             <div class="map_img">
-                <img src="assets/Bartlett_U.png">
+                <img id="img" src="assets/Bartlett_U.png">
             </div>
+            <p class="title" id="mapName">Random Map & Mode Picker</p>
             <div class="button1">
-                <button><p>GENERATE</p></button>
+                <button id="btn"><p>GENERATE</p></button>
             </div>
         </div>
     </body>

@@ -35,11 +35,17 @@
     margin-bottom: 5vh;
 }
 
+#mapName {
+    margin: 20px;
+}
+
 .map_img img {
     margin-left: auto;
 	margin-right: auto;
 	display: block;
-    max-width: 60vw;
+    max-width: 50vw;
+    border-radius: 30px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.4);
 }
 
 .button1 {
@@ -50,6 +56,26 @@
     margin-top: 5vh;
 }
 
+.button1 button {
+    width: 300px;
+    background-color: #00caff;
+    border-radius: 7px;
+    border-style: hidden;
+    transition: 0.5s ease;
+}
+
 .button1 p {
-    padding: 5vh 10vh
+    padding: 5vh 10vh;
+    font-family: rainbow;
+    font-size: 40px;
+    color: #ffffff
+}
+
+.button1 button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.button1 button:active {
+    background-color: #000000;
 }
